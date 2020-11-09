@@ -8,8 +8,6 @@ for cnt in range (len(vett)):
     for i in range(cnt + 1, len(vett)):
         if vett[cntMin] > vett[i]:
             cntMin = cnt
-            temp = vett[i]
-            vett[i] = vett[cntMin]
-            vett[cntMin] = temp
+            vett[cntMin], vett[i] = vett[i], vett[cntMin]
 print("\nVettore ordinato")
 print(vett)
