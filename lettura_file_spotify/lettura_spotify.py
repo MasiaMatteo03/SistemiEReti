@@ -5,7 +5,7 @@ titolo = ""  #empty string
 
 
 for riga in file:  #read file
-    #print(riga[0:-1].split(","))  printa una lista con gli elementi presenti nella riga divisi dalla split
+    #print(riga[0:-1].split(","))  print a list with the elements are in the row (from 0 to the last componet excluded) divided by the split
     line = riga[0:-1].split(",")  #split each line of the file and save it in the "line" variable
     appoggioAutore = autore.join(line[2])  #join the string "autore" in "line[2]
     appoggioTitolo = titolo.join(line[1])
