@@ -6,8 +6,8 @@ titolo = ""  #empty string
 
 for riga in file:  #read file
     #print(riga[0:-1].split(","))  printa una lista con gli elementi presenti nella riga divisi dalla split
-    line = riga[0:-1].split(",")  
-    appoggioAutore = autore.join(line[2])  #split each line of the file and save it in the "line" variable
+    line = riga[0:-1].split(",")  #split each line of the file and save it in the "line" variable
+    appoggioAutore = autore.join(line[2])  #join the string "autore" in "line[2]
     appoggioTitolo = titolo.join(line[1])
     
     canzone = {"Numero":line[0], "Titolo":appoggioTitolo, "Autore":appoggioAutore}  #dictionary creation
