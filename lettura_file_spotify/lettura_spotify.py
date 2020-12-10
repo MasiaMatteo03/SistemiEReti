@@ -15,6 +15,6 @@ for riga in file:  #read file
 
 print(f"{playlist} \n\nPlaylist: \n")  #print all the playlist
 
-for canzone in playlist:    #print the each components of the playlist to head
+for canzone in playlist:    #print the each components of the playlist in line
     print(canzone["Numero"], "-", canzone["Titolo"], "-", canzone["Autore"])
 file.close()
