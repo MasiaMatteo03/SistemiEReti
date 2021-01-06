@@ -1,2 +1,3 @@
 # SistemiEReti
-Questo è il repository di Masia Matteo contenente le esercitazioni/file di sistei e reti dell'A.S. 2020/2021.
+
+This is the Masia Matteo's repository. Inside there are the exercises of "Sistemi e Reti" of the school year 2020/2021.
