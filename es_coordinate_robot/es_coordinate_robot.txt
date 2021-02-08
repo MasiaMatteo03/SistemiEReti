@@ -1,0 +1,10 @@
+stanza rettangolare piastrellata (matrice)
+robot si muove nella stanza
+
+ostacoli nella stanza
+robot in certo punto nella stanza
+
+robot si muove avanti, dietro, destra, sinistra
+
+dato pavimento con ostacoli produco dizionario 
+{0: [1,5], ... #nella cella 0 può andare nelle celle vicine libere
