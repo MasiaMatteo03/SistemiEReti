@@ -37,8 +37,6 @@ def numeraPavimento():
     global pavimento
     contCelle = 0
 
-    
-
     for contY in range(0, len(pavimento)):
         for contX in range(0, len(pavimento[0])):
 
