@@ -22,7 +22,6 @@ def main():
     global screen
 
     spost = {0:[0,0]}
-    coord = ()
 
     maxPerditaMin = 60
     cont = 0
